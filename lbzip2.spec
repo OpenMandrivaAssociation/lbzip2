@@ -1,11 +1,11 @@
 Name:           lbzip2
-Version:        2.2
+Version:        2.3
 Release:        1
 Summary:        Fast, multi-threaded bzip2 utility
 Group:          Archiving/Compression
 License:        GPLv2+
-URL:            http://lacos.hu/
-Source0:        https://github.com/downloads/kjn/%{name}/%{name}-%{version}.tar.gz
+URL:            http://lbzip2.org/
+Source0:	http://archive.lbzip2.org/%{name}-%{version}.tar.gz
 
 BuildRequires:  bzip2-devel >= 1.0.6, dash, sharutils
 
