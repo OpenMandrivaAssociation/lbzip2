@@ -1,5 +1,5 @@
 Name:           lbzip2
-Version:        2.3
+Version:        2.5
 Release:        1
 Summary:        Fast, multi-threaded bzip2 utility
 Group:          Archiving/Compression
@@ -39,14 +39,3 @@ compression to overlap with disk usage to a greater extent than bzip2 does.
 %doc %{_mandir}/man1/%{name}.1*
 %doc %{_mandir}/man1/lbzcat.1*
 %doc %{_mandir}/man1/lbunzip2.1*
-
-
-%changelog
-* Tue Aug 14 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 2.2-1
-+ Revision: 814755
-- update to 2.2
-
-* Sun Nov 27 2011 Alexander Khrukin <akhrukin@mandriva.org> 2.1-1
-+ Revision: 733779
-- imported package lbzip2
-

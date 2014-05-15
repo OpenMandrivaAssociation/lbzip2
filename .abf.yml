@@ -1,4 +1,5 @@
 removed_sources:
   lbzip2-2.2.tar.gz: 7c1fedbfec6aa3b10a4d3411078216f3fde252c3
-sources:
   lbzip2-2.3.tar.gz: 3fba703c3f1dcc667a4461d06356eab2e14baa04
+sources:
+  lbzip2-2.5.tar.gz: d25d18dff12cc8943f83bade3d3a17ee089fe493
