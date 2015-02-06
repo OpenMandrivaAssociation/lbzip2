@@ -1,6 +1,6 @@
 Name:           lbzip2
 Version:        2.5
-Release:        1
+Release:        2
 Summary:        Fast, multi-threaded bzip2 utility
 Group:          Archiving/Compression
 License:        GPLv2+
