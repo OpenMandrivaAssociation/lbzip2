@@ -1,6 +1,6 @@
 Name:           lbzip2
 Version:        2.5
-Release:        2
+Release:        3
 Summary:        Fast, multi-threaded bzip2 utility
 Group:          Archiving/Compression
 License:        GPLv2+
@@ -25,6 +25,7 @@ compression to overlap with disk usage to a greater extent than bzip2 does.
 %setup -q
 
 %build
+%global optflags %{optflags} -Ofast
 %configure
 %make
 
