@@ -4,7 +4,7 @@ Release:        3
 Summary:        Fast, multi-threaded bzip2 utility
 Group:          Archiving/Compression
 License:        GPLv2+
-URL:            http://lbzip2.org/
+URL:            https://lbzip2.org/
 Source0:	http://archive.lbzip2.org/%{name}-%{version}.tar.gz
 
 BuildRequires:  bzip2-devel >= 1.0.6, dash, sharutils
