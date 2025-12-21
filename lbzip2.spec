@@ -7,6 +7,11 @@ License:        GPLv2+
 URL:            https://lbzip2.org/
 Source0:	http://archive.lbzip2.org/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  bzip2-devel >= 1.0.6, dash, sharutils
 
 %description
